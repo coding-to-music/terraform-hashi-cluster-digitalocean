@@ -46,3 +46,23 @@ git push -u origin main
 # terraform-hashi-cluster-digitalocean
 
 A Hashicorp (Vault, Consul, Nomad) cluster on Digital Ocean
+
+## Attempt to run
+
+```
+terraform init
+```
+
+```
+Upgrading modules...
+Downloading registry.terraform.io/brucellino/consul/digitalocean 1.0.4 for consul...
+- consul in .terraform/modules/consul
+Downloading registry.terraform.io/brucellino/vpc/digitalocean 1.0.0 for vpc...
+- vpc in .terraform/modules/vpc
+
+Initializing the backend...
+╷
+│ Error: Failed to get existing workspaces: Get "http://consul.service.consul:8500/v1/kv/terraform/digitalocean/hashi-cluster-env:?keys=&separator=%2F": dial tcp: lookup consul.service.consul on 127.0.0.53:53: no such host
+│
+│
+```
