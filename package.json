@@ -1,0 +1,21 @@
+{
+  "name": "terraform-hashi-cluster-digitalocean",
+  "version": "1.0.0",
+  "description": "A Hashicorp (Vault, Consul, Nomad) cluster on Digital Ocean",
+  "main": "commitlint.config.js",
+  "scripts": {
+    "deploy": "git add . && git commit -m Build && git push",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brucellino/terraform-hashi-cluster-digitalocean.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brucellino/terraform-hashi-cluster-digitalocean/issues"
+  },
+  "homepage": "https://github.com/brucellino/terraform-hashi-cluster-digitalocean#readme"
+}
